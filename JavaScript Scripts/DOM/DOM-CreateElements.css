@@ -1,0 +1,16 @@
+.box{
+    border: 2px solid;
+    width: 90%;
+    height: 120px;
+    text-align: center;
+    margin: 20px;
+}
+
+#fruits{
+    font-size: 2rem;
+    border: 2px solid;
+    width: 90%;
+    height: 120px;
+    text-align: center;
+    margin: 20px;
+}
