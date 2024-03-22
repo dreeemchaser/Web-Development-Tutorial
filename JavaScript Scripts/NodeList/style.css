@@ -1,0 +1,13 @@
+.myButtons{
+    font-size: 3rem;
+    font-family: monospace;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #9ad49a;
+    color: white;
+    display: flex;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+}
