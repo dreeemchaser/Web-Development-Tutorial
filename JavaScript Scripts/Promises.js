@@ -57,7 +57,7 @@ walkDog().then(value => {console.log(value);return cleanKitchen()})
 
 
 async function doChores(){
-    walkDogResult = await walkDog();
+    const walkDogResult = await walkDog();
     console.log(walkDogResult);
 
     const cleanKitchenResult = await cleanKitchen();
@@ -68,6 +68,8 @@ async function doChores(){
 
     console.log("You finished all the chores.");
 }
+
+doChores();
 
 //!  Callback hell !
 /*
