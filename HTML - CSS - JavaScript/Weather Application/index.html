@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Converters</title>
+</head>
+<body>
+<form class="weatherForm">
+    <label>
+        <input type="text" class="cityInput" placeholder="Enter City" id="cityInput">
+    </label>
+    <button type="button" id="getReportBtn">Get Weather Report</button>
+</form>
+
+<div class="card">
+    <h1 id="cityDisplay"></h1>
+    <p id="countryDisplay"></p>
+    <p id="tempDisplay"></p>
+    <p id="humidityDisplay"></p>
+    <p id="descDisplay"></p>
+
+    <img src="" alt="Weather Icon" id="weatherIcon" style="display: none">
+
+    <p class="errorDisplay">Please Enter a city</p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

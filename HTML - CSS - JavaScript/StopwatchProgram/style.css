@@ -1,0 +1,58 @@
+body{
+    background-image: url("/StopwatchProgram/Images/batmanSymbol.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+#myh1{
+    font-size: 4rem;
+    font-family: monospace;
+    color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 50px;
+}
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+}
+
+#controls button{
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    margin: 4px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: green;
+}
+#startBtn:hover{
+    background-color: lightgreen;
+}
+
+#resetBtn{
+    background-color: blue;
+}
+#resetBtn:hover{
+    background-color: lightblue;
+}
+#stopBtn{
+    background-color: red;
+}
+#stopBtn:hover{
+    background-color: lightcoral;
+}

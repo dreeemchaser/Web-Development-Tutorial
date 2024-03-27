@@ -1,0 +1,65 @@
+body{
+    font-family: monospace;
+    background-color: lightblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherForm{
+    margin: 20px;
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+}
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4f4c4c;
+    color:white;
+}
+
+.card{
+    background: linear-gradient(100deg, lightcyan, lightskyblue);
+    padding: 40px;
+    box-shadow: 2px 2px 8px black;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.weatherEmoji{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.errorDisplay{
+    color: red;
+    display: none;
+}
