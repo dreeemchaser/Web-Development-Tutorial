@@ -39,12 +39,12 @@ async function fetchData(){
 
 async function fetchWeatherData(){
     try{
-        const cityName = document.getElementById("cityName").value.toLowerCase();
+        const url = 'https://movie-database-alternative.p.rapidapi.com/?s=Avengers%20Endgame&r=json&page=1';
         const options = {
             method: 'GET',
             headers: {
                 'X-RapidAPI-Key': '6ea9654c20msh6197001fb5841aap109f3cjsne804b4cbf4f8',
-                'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+                'X-RapidAPI-Host': 'movie-database-alternative.p.rapidapi.com'
             }
         };
         const response  = await fetch(`https://weatherapi-com.p.rapidapi.com/forecast.json?q=${cityName}&days=5`, options);
@@ -59,3 +59,5 @@ async function fetchWeatherData(){
         console.log(error);
     }
 }
+
+fetchWeatherData();
