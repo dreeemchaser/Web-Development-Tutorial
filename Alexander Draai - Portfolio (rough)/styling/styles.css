@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+.left-content{
+    width: 45%; /* Adjust width to allow space for margin and border */
+    display: inline-block; /* or float: left; */
+    vertical-align: top; /* ensures alignment at the top */
+    box-sizing: border-box; /* includes padding and border in the width */
+    padding: 20px;
+    margin: 20px; /* Add margin */
+    border: 1px solid black ; /* Add border */
+    border-radius: 15px;
+    background-color: #9ad49a;
+}
+.right-content {
+    width: 45%; /* Adjust width to allow space for margin and border */
+    display: inline-block; /* or float: left; */
+    vertical-align: top; /* ensures alignment at the top */
+    box-sizing: border-box; /* includes padding and border in the width */
+    padding: 20px;
+    margin: 20px; /* Add margin */
+    border: 1px solid black; /* Add border */
+    border-radius: 15px;
+    background-color: #03c9ab;
+}
+
+#aboutme_img{
+    width: 60%;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+    position: static;
+}
+.aboutMeTitle{
+    text-align: center;
+    text-decoration: 1px black underline;
+}
+.qualification{
+    text-align: center;
+    text-decoration: 1px black underline;
+}
+.project-cards{
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
